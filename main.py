@@ -12,9 +12,13 @@ waifu = commands.Bot(
     help_command=None   
 )
 
-@waifu.event
+@senpai.event
 async def on_ready():
-    print('Waifu is ready!')
+    print('Senpai is ready!')
+    
+ @senpai.command
+async def ping(channel):
+    await channel.send("pong")
 
     
 waifu.run(config['token'])
