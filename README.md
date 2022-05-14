@@ -1,2 +1,5 @@
 # Senpai
-A weirdass discord bot by monsters from the deep dark
+A discord bot!
+
+```print("hello motherfuckers")```
+
